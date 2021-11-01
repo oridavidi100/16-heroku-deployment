@@ -1,0 +1,25 @@
+body{
+    text-align: center;
+    background-image: url(https://i.pinimg.com/originals/df/4e/8b/df4e8ba28f912bf9cdf9fa0dfc196411.png);
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    }
+
+ul{
+list-style: none;
+}
+#pokeList{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+input{
+    border: 0.1em solid;
+    border-radius: 1em;
+    text-align: center;
+    font-style: italic;
+    letter-spacing: 0.05em;
+    transition: all .5s ease-in-out;
+    background-color: #eccdb3;
+
+}
