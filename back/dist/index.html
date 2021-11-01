@@ -1,0 +1,56 @@
+<html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Font Awesome -->
+        <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+        <!-- Bootstrap core CSS -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Material Design Bootstrap -->
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/css/mdb.min.css" rel="stylesheet">  
+        <!-- required for sticky footer -->
+    <title>Document</title>
+    <script src="./index.js" defer></script>
+    <script src="https://unpkg.com/axios/dist/axios.min.js" defer></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.4/umd/popper.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mdbootstrap/4.8.7/js/mdb.min.js"></script>
+    <link rel="stylesheet" href="./styles/style.css">
+</head>
+<body>
+    <div id="loader" allowFullScreen></div>
+    <head id="head">pokedex</head><br>
+
+    <input type="text" placeholder="username" id="username">
+    <button id="submitUserName">submit</button><br>
+
+
+    <input type="text" id="searchById" placeholder="Search Pokemon by id ">
+    <button type="submit" id="searchButtonById">search Pokemon by Id</button>
+
+    <input type="text" id="searchByName" placeholder="Search Pokemon by Name ">
+    <button type="submit" id="searchButtonByName">search Pokemon by Name</button><br>
+
+    <div id="firstDiv">
+        <div id="alert"></div>
+        <ul id="ul">
+            <li id="name">Name: </li>
+            <li id="Height">Height: </li>
+            <li id="Weight">Weight: </li>
+            <li id="Types">Types: </li>
+        </ul>
+        <img id="img" src="" ><br>
+        <button type="button" id="catch">catch</button>
+        <button type="button" id="release">release</button><br>
+        <ul id="pokecollc"></ul><br>
+        <button type="button" id="collection">show pokemons collection</button> 
+        <ul id="pokeList"></ul>
+    </div>
+    <div id="badguy"  
+    width="480" height="360" frameBorder="0" class="giphy-embed" ></div>
+    <div id="badGuy"></div>
+</body>
+</html>
