@@ -1,0 +1,20 @@
+{
+  "name": "user-agent-api-express",
+  "version": "1.0.0",
+  "description": "User Agent API express.js server - parse requests and return ip, browser, device, os",
+  "main": "app.js",
+  "engines": {
+    "node": "14.x.x"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js"
+  },
+  "author": "Max Langerman",
+  "license": "ISC",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "ua-parser-js": "^1.0.2"
+  }
+}
