@@ -11,6 +11,10 @@ app.use(cors({
 }))
 app.use(express.static('public'));
 app.use(express.json()) // parses requests as json
+app.use('/', express.static(path.resolve('./dist'))); // serve main path as static dir
+app.get('/', function(req, res) { // serve main path as static file
+  res.sendFile(path.resolve('./dist/index.html'))
+});
 
 const pokemonRouter = require("./src/routers/pokemonRouter");
 const userRouter = require("./src/routers/userRouter");
