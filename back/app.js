@@ -3,7 +3,7 @@ const express = require('express');
 const app = new express();
 const cors = require('cors');
 const path = require("path")
-
+const port = 8080;
 
 
 
@@ -40,3 +40,7 @@ app.use(errorHandlerMiddleware);
 
 app.listen(process.env.PORT || 3000,
   () => console.log("Server is running..."));
+  
+  app.listen(process.env.PORT || port, () => {
+    console.log(`Example app listening ....`)
+})
